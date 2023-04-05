@@ -1,10 +1,6 @@
-> This repository is for demonstration purposes of how it can be implemented in Angular and is not maintaned.
-Please fork and maintain your own version of this repository.
-
-
 # ngx-modal
 
-Open modal window (dialog box) for your angular2 applications using bootstrap3. If you don't want to use it without bootstrap - simply create proper css classes. Please star a project if you liked it, or create an issue if you have problems with it.
+Open modal window (dialog box) for your Angular 8 applications using Bootstrap 4. If you don't want to use it without bootstrap - simply create proper css classes. Please star a project if you liked it, or create an issue if you have problems with it.
 
 ## Installation
 
@@ -20,7 +16,7 @@ Open modal window (dialog box) for your angular2 applications using bootstrap3. 
             "ngx-modal": "node_modules/ngx-modal"
         },
         "packages": {
-            "ngx-modal": { "main": "index.js", "defaultExtension": "js" }
+            "ngx-modal": { "main": "bundles/ngx-modal.umd.js", "defaultExtension": "js" }
         }
     }
     ```
@@ -221,6 +217,3 @@ export class AppModule {
     </modal>
 </div>
 ```
-
-Take a look on samples in [./sample](https://github.com/pleerock/ngx-modal/tree/master/sample) for more examples of
-usages.
